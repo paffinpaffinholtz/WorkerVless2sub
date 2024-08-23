@@ -11,7 +11,7 @@ let addresses = [
 
 // 设置优选地址api接口
 let addressesapi = [
-	'https://cf-workers-text2kv-5hq.pages.dev/yxip.txt?token=LXWPEZ2095', 
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesapi.txt', 
 	//'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressesipv6api.txt', //IPv6优选内容格式 自行搭建。
 ];
 
@@ -29,7 +29,7 @@ let addressesnotlsapi = [
 
 let DLS = 1;//速度下限
 let addressescsv = [
-	'https://cf-workers-text2kv-5hq.pages.dev/result.csv?token=LXWPEZ2095',
+	'https://raw.githubusercontent.com/cmliu/WorkerVless2sub/main/addressescsv.csv',
 ];
 
 let subconverter = "subapi-loadbalancing.pages.dev"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
